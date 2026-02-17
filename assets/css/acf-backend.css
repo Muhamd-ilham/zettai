@@ -1,0 +1,6 @@
+/* ACF BACKEND CUSTOM CSS */
+
+.acf-image-uploader .image-wrap img[src$=".svg"], .img-fluid {
+    width: 100%;
+    height: auto;
+}
