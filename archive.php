@@ -4,28 +4,7 @@
 
 	<!-- Content -->   
 
-	<div id="page-content-wrapper">
 	
-		<?php if ( have_posts() ) : ?>
-		
-		<div class="col">		
-		<?php get_template_part('template-parts/current') ;?>
-		</div>
-		
-		<div class="col">
-
-			<div class="row article-feed">
-
-				<?php while (have_posts() ) : the_post(); ?>
-
-				<div class="col-12 col-lg-6 p-3 post">
-				
-					<div class="card-custom border-0 shadow-sm mb-3">
-							
-						<div class="card-body">
-										
-							<div class="row">          
-
 								<div class="col-4">  
 								
 									<div class="img__wrap">
